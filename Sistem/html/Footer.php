@@ -1,0 +1,1 @@
+<p style='margin:5px;'>Copyright® 2017 SMK Negeri Tutur</p>

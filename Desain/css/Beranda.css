@@ -1,0 +1,207 @@
+.SLIDE {
+	margin: 0;
+	padding: 0;
+	width: 851px;
+	height: 286px;
+}
+.SLIDE img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+.BANNER {
+	position:relative;
+	display: inline-block;
+	border-radius: 15px;
+	margin: 5px;
+	width:90%;
+	max-width:851px;
+	height:286px;
+	text-align:center;
+	overflow:hidden;
+}
+#INDIKATOR_WAKTU {
+	height: 7px;
+	background: #08f;
+	z-index: 100;
+	position: absolute;
+	bottom: 0;
+	border-radius: 3px;
+	opacity: .5;
+}
+#LONCAT {
+	z-index: 100;
+	display: inline-block;
+	margin-top: 250px;
+}
+#LONCAT > .LONCAT {
+	position: relative;
+	float: left;
+	margin: 3px;
+	padding: 7px;
+	border: 1px #555 solid;
+	box-shadow: 0 0 2px rgba(0,0,0,.7);
+	border-radius: 25%;
+	opacity: .5;
+}
+.current {
+	background: #08f;
+}
+.KEPALA {
+	position:relative;
+	display: inline-block;
+	margin: 5px;
+	width:90%;
+	max-width:851px;
+	height:100px;
+	z-index:2;
+	text-align:center
+}
+#KEPALA_JUDUL {
+	position : relative;
+	float    :left;
+	width: auto;
+	height: 100%;
+	font-weight: bold;
+	margin-left: 30px;
+	color: #333;
+	text-align: left;
+}
+.MENU_UTAMA {
+	position:relative;
+	display: inline-block;
+	border-radius: 15px;
+	margin: 5px;
+	width:90%;
+	max-width:851px;
+	height:50px;
+	z-index:2;
+	text-align:center
+	overflow: hidden;
+}
+.MENU_UTAMA, .JUDUL_ISI {
+	font-size   : 13px;
+	background  : -webkit-linear-gradient(rgb(0,112,177), rgb(28,181,235));
+	background  : -o-linear-gradient(rgb(0,112,177), rgb(28,181,235));
+	background  : -moz-linear-gradient(rgb(0,112,177), rgb(28,181,235));
+	background  : linear-gradient(rgb(0,112,177),rgb(28,181,235));
+	font-weight : bold;
+	color       : white;
+	z-index     : 100;
+}
+
+.MENU_DATAR {
+	width:150px;
+	margin:0;
+	height:100%;
+	float: left;
+	z-index: 100;
+}
+.MENU_DATAR div {
+	margin: 0;
+	padding:0;
+	width:146px;
+	height: auto;
+	border-right: 2px white solid;
+}
+.BERITA {
+	position:relative;
+	float: left;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 0;
+	width:66%;
+	min-height:300px;
+	z-index:2;
+	text-align:center;
+	overflow: hidden;
+}
+.MENU_NAV {
+	position:relative;
+	float: right;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 0;
+	width:32%;
+	min-height:300px;
+	z-index:2;
+	text-align:center;
+	overflow: hidden;
+}
+.FOOTER {
+	position:relative;
+	display: inline-block;
+	background: #DDD;
+	border-radius: 5px;
+	margin: 15px 0 8px 0;
+	width:100%;
+	z-index:2;
+	color: #333;
+	text-align:center;
+}
+.BERITA, .MENU_NAV, .MENU_UTAMA, .ISI_TENTANG, .FOOTER {
+}
+INPUT {
+	border: 0 #555 solid;
+	color: #555;
+	background: white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+INPUT:hover {
+	background: #EEE;
+}
+#JUDUL_BERITA, #JUDUL_NAV, #JUDUL_TENTANG {
+	height: 40px;
+}
+p.MASUK {
+	font-weight: bold;
+	background:#DDD;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color:#555;
+	margin: 15px 0 0 0;
+	padding:5px;
+	width:60px;
+	margin-left:5%;
+	margin-bottom: -1px;
+	box-shadow: 0 0 2px rgba(0,0,0,.7);
+	z-index: 100;
+}
+.LOGIN {
+	background:#DDD;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	display:inline-block;
+	text-align:center;
+	width:90%;
+	box-shadow: 0 0 2px rgba(0,0,0,.7);
+	padding-top: 20px;
+	z-index: 1;
+	margin-bottom: 15px;
+}
+.AKTIF {
+}
+#ISI {
+	position:relative;
+	display: inline-block;
+	margin: 5px 0;
+	padding:0;
+	width:100%;
+	max-width:851px;
+	height:auto;
+	z-index:2;
+	text-align:center
+}
+.ISI_TENTANG {
+	position:relative;
+	float: left;
+	display: inline-block;
+	border-radius: 5px; margin: 0;
+	width:100%;
+	min-height:1000px;
+	z-index:2;
+	text-align:center;
+	overflow: hidden;
+}

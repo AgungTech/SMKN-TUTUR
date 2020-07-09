@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "SegoeUI";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Desain/css/Huruf/segoeui.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  font-style: normal;
+  font-weight: bold;
+  src: url("Desain/css/Huruf/segoeuib.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  font-style: italic;
+  font-weight: normal;
+  src: url("Desain/css/Huruf/segoeuii.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  font-style: italic;
+  font-weight: bold;
+  src: url("Desain/css/Huruf/segoeuiz.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SegoeIkon";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Desain/css/Huruf/segmdl2.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SegoeSimbol";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Desain/css/Huruf/seguisym.woff") format("woff");
+}
